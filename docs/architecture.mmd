@@ -1,0 +1,25 @@
+flowchart LR
+  Owner[MSME owner · mobile browser] --> UI[Mobile-first web UI]
+  UI --> Advisor[Advisor API]
+  Advisor --> Profile[Business profile]
+  Advisor --> Rules[Deterministic catalogue rules]
+  Catalog[(Product catalogue CSV)] --> Rules
+  Rules --> Bundle[Eligible bundle + dependency validation]
+  Bundle --> Quote[Quote and pricing service]
+  Quote --> Checkout[Checkout / order API]
+  UI --> Consent[Consent gate + audit]
+  Consent --> Upload[Document upload endpoint]
+  Upload --> OCR[Tesseract OCR worker]
+  OCR --> KYC[KYC validation service]
+  GST[(Mock GST registry)] --> KYC
+  Udyam[(Mock Udyam registry)] --> KYC
+  KYC --> Review[Auto-approve / fix / manual review]
+  Review --> ESign[Mock OTP e-sign]
+  ESign --> Orders[(Order state store)]
+  Orders --> Tracker[Order tracker + mock notifications]
+  Leads[(SMB leads CSV)] --> Model[Logistic regression propensity]
+  Model --> Ops[Back-office priority queue]
+  Ops --> Human[Sales / partner / field owner]
+  Ops --> AssignDB[(SQLite assignments + append-only activity events)]
+  Advisor -. optional future .-> LLM[LLM: conversation, translation, explanation only]
+  Rules -. hard guardrail .-> Advisor

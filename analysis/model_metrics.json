@@ -1,0 +1,21 @@
+{
+  "test_roc_auc": 0.6598051362919576,
+  "test_size": 1250,
+  "test_activation_rate": 0.0736,
+  "features": [
+    "lead_source",
+    "business_type",
+    "segment",
+    "city_tier",
+    "state",
+    "preferred_language",
+    "employee_count",
+    "num_sites",
+    "annual_turnover_band",
+    "has_gstin",
+    "has_udyam",
+    "current_internet",
+    "current_provider",
+    "monthly_telecom_spend_inr"
+  ]
+}

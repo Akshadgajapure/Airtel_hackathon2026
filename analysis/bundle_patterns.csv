@@ -1,0 +1,25 @@
+segment,bundle_products,activations,monthly_value,churn_rate,nps
+Micro retail & services,P01x1;P07x1,11,1420.0,0.09090909090909091,7.0
+Micro retail & services,P01x1;P07x2,10,1790.0,0.3,6.7
+Micro retail & services,P01x1;P07x2;P19x1,6,2575.0,0.0,7.833333333333333
+Micro retail & services,P01x1;P07x2;P23x2,5,2210.0,0.2,6.6
+Micro retail & services,P01x1;P07x1;P19x1,4,2160.0,0.5,6.75
+Micro retail & services,P01x1;P07x1;P22x1,4,1885.0,0.5,7.25
+Micro retail & services,P01x1;P07x2;P19x1;P22x1,4,3015.0,0.0,7.25
+Micro retail & services,P01x1;P07x2;P22x1,4,2270.0,0.0,6.75
+Micro retail & services,P01x1;P07x1;P15x1,3,2780.0,0.0,8.0
+Micro retail & services,P01x1;P07x1;P18x1,3,1790.0,0.3333333333333333,7.333333333333333
+Micro retail & services,P01x1;P07x1;P19x1;P22x1,3,2620.0,0.3333333333333333,7.333333333333333
+Micro retail & services,P01x1;P07x1;P19x1;P23x1,3,2480.0,0.0,7.0
+Micro retail & services,P01x1;P07x2;P22x1;P23x2,3,2770.0,0.3333333333333333,8.0
+Micro retail & services,P01x1;P07x2;P23x1;P15x1,3,3230.0,0.3333333333333333,7.666666666666667
+Micro retail & services,P01x1;P07x1;P22x1;P18x1,2,2440.0,0.5,7.5
+Micro retail & services,P01x1;P07x1;P23x1,2,1635.0,0.0,7.0
+Micro retail & services,P01x1;P07x1;P23x2;P15x1,2,3120.0,0.5,8.0
+Micro retail & services,P01x1;P07x2;P15x1,2,3115.0,0.5,6.0
+Micro retail & services,P01x1;P07x2;P19x1;P22x1;P15x1,2,4220.0,0.5,5.5
+Micro retail & services,P01x1;P07x2;P19x1;P23x1,2,2740.0,0.0,6.0
+Micro retail & services,P01x1;P07x2;P22x1;P15x1,2,3580.0,0.0,9.0
+Micro retail & services,P04x1;P07x1,2,1355.0,1.0,5.5
+Professional offices,P03x1;P08x2;P16x13,2,7625.0,0.0,6.0
+Small manufacturers,P05x1;P08x4;P16x15,2,12985.0,0.5,8.0
